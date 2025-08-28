@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crafted Fragrance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-6 py-4 border-b border-gray-800">
+        <div class="flex items-center space-x-4">
+            <img src="https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-5c54-620a-a99c-db61510601c7/raw?se=2025-07-23T07%3A32%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=886c30bb-d44e-5ae5-8af0-535ef7de0aed&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-22T23%3A52%3A57Z&ske=2025-07-23T23%3A52%3A57Z&sks=b&skv=2024-08-04&sig=iofk5rAc1uYkvy0eIhh1OpfGziCGfvEOkOwYQ%2BqUxuc%3D" alt="Logo" class="h-12" />
+            <h1 class="text-xl font-bold">Crafted Fragrance</h1>
+        </div>
+        <div class="flex items-center space-x-4 w-1/2">
+            <input type="text" placeholder="Search perfumes..."
+                class="w-full px-4 py-2 rounded bg-gray-900 border border-gray-700 text-white" />
+            <button class="px-4 py-2 bg-yellow-500 text-black font-semibold rounded">Search</button>
+        </div>
+        <div>
+            <button class="text-white hover:text-yellow-400">🛒 Cart</button>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="w-full overflow-hidden relative mt-4">
+        <div class="flex transition-transform duration-700 ease-in-out animate-slide">
+            <img src="https://www.newhigh.com/cdn/shop/articles/New_High_Perfume_Bottle.jpg?v=1683149068" class="w-full h-72 object-cover" />
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/TY/TP/BB/124561807/perfume-bottle-3d-model-.jpg" class="w-full h-72 object-cover" />
+            <img src="https://toppacksolution.com/wp-content/uploads/2018/07/50ml-Unique-Shape-Pink-Glass-Perfume-Bottle.jpg" class="w-full h-72 object-cover" />
+            <img src="https://www.iperfumepackaging.com/wp-content/uploads/2020/08/STB-002-1-1024x1024.jpg" class="w-full h-72 object-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnHcMLNWRTr4mJ01JRaWEBW-bTu8IFa9mhw&s" class="w-full h-72 object-cover">       
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvI6hTOVyjPHQUiDJIBJ59rrn4mRe2mR5Jw&s" class="w-full h-72 object-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk5OuAKjXWuKqBjoDoFP2Tx0qEXrCrZfRLfg&s" class="w-full h-72 object-cover">
+       
+       
+       
+            </div>
+    </div>
+
+    <!-- Products -->
+    <section class="py-8 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Product Card -->
+        <div class="bg-gray-900 rounded-xl shadow p-4">
+            <img src="https://banafaforoud.com/wp-content/uploads/2023/09/%D8%B9%D9%88%D8%AF-%D8%B1%D8%A8%D9%89-%D9%83%D8%A7%D9%85%D9%84-150x150.jpg" alt="Perfume 1"
+                class="h-48 w-full object-cover rounded" />
+            <h2 class="mt-4 text-lg font-semibold">Royal Oud</h2>
+            <p class="text-sm text-gray-400">Luxury woody fragrance</p>
+            <div class="mt-2 flex justify-between items-center">
+                <span class="text-yellow-500 font-bold">$89.99</span>
+                <button class="bg-yellow-500 text-black px-3 py-1 rounded">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-xl shadow p-4">
+            <img src="https://cdn.salla.sa/dGQmd/c8365f33-afc2-4667-a2cb-8aa279b0a1cd-1000x975-Kw7UyssfKh1cN5jNr59qG3DSzYcrFf667Z0Q5CWw.jpg" alt="Perfume 2"
+                class="h-48 w-full object-cover rounded" />
+            <h2 class="mt-4 text-lg font-semibold">Velvet Musk</h2>
+            <p class="text-sm text-gray-400">Smooth and seductive</p>
+            <div class="mt-2 flex justify-between items-center">
+                <span class="text-yellow-500 font-bold">$75.00</span>
+                <button class="bg-yellow-500 text-black px-3 py-1 rounded">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-xl shadow p-4">
+            <img src="data:image/jpeg;base64,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" alt="Perfume 3"
+                class="h-48 w-full object-cover rounded" />
+            <h2 class="mt-4 text-lg font-semibold">Amber Flame</h2>
+            <p class="text-sm text-gray-400">Fiery amber aroma</p>
+            <div class="mt-2 flex justify-between items-center">
+                <span class="text-yellow-500 font-bold">$92.50</span>
+                <button class="bg-yellow-500 text-black px-3 py-1 rounded">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-xl shadow p-4">
+            <img src="https://madinagift.pk/cdn/shop/files/Ocean_Breeze_Inertia_Scents_Perfume_100_ml.jpg?v=1743271524" alt="Perfume 4"
+                class="h-48 w-full object-cover rounded" />
+            <h2 class="mt-4 text-lg font-semibold">Ocean Breeze</h2>
+            <p class="text-sm text-gray-400">Fresh and aquatic</p>
+            <div class="mt-2 flex justify-between items-center">
+                <span class="text-yellow-500 font-bold">$59.00</span>
+                <button class="bg-yellow-500 text-black px-3 py-1 rounded">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 border-t border-gray-800 text-gray-400">
+        © 2025 Crafted Fragrance. All rights reserved.
+    </footer>
+
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            33% {
+                transform: translateX(-100%);
+            }
+
+            66% {
+                transform: translateX(-200%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .animate-slide {
+            animation: slide 12s infinite;
+        }
+    </style>
+
+
+
+
+</body>
+
+</html>
